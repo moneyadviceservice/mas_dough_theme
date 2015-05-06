@@ -1,0 +1,267 @@
+// Fonts
+$base-font-size: 16 !default;
+
+// Forms
+$input-height: $baseline-unit*5;
+
+// Sprites
+$sprite-background-size: 550px;
+
+// -------------- BASE PALETTE ---------- //
+$color-white: #fff;
+$color-off-white: #f5f7f7;
+$color-white-translucent: rgba(255, 255, 255, 0.2);
+$color-white-translucent-fallback: rgb(255, 255, 255);
+$color-transparent: transparent;
+
+$color-black: #2e3030;
+$color-true-black: #000;
+$color-black-two: #4e4f4f;
+$color-grey-primary: #6a6d6d;
+
+$color-green-primary: #428513;
+$color-green-secondary: #61a612;
+$color-green-tertiary: #115329;
+$color-green-quaternary: #337018;
+$color-green-quinary: #2d6a1e;
+$color-green-six: #76B72A;
+
+$color-green-paler: #f5f7f8;
+$color-green-pale: #f7fbec;
+$color-green-light: #b9dd48;
+$color-green-medium: #81c724;
+$color-green-bright: #adcf3f;
+$color-green-dark: #388426;
+$color-green-one: #77bf24;
+$color-green-two: #20600f;
+$color-green-three: #f7fbed;
+
+$color-teal-light: #109e89;
+$color-teal-dark: #0e7f6c;
+
+$color-blue-pale: #ebf2f5;
+$color-blue-light: #e6f2f7;
+$color-blue-medium: #1f6faa;
+$color-blue-bright: #007eae;
+$color-blue-cerulean: #0076ab;
+$color-blue-dark: #18507a;
+$color-blue-extra-dark: #0a4358;
+
+$color-grey-palest: #dce3e1;
+$color-grey-paler: #f2f4f4;
+$color-grey-pale: #edf0f0;
+$color-grey-paleo: #ecf0ef;
+$color-grey-normal: #d1d5d5;
+$color-grey-seven: #929494;
+$color-grey-eight: #dce0e0;
+$color-grey-nine: #e2e2e2;
+$color-grey-ten: #f4f4f4;
+$color-grey-light: #a8b2ba;
+$color-grey-medium-dark: #6a6d6d;
+$color-grey-medium: #526675;
+$color-grey-dark: #394752;
+
+$color-grey-corduroy: #686C6C;
+$color-grey-concrete: #F3F3F3;
+
+$color-bluegrey-dark: #96b4c0;
+$color-bluegrey-medium: #cbdae0;
+$color-bluegrey-light: #dae1df;
+
+$color-pink-light: #fdf0f2;
+$color-pink-medium: #e43c8a;
+$color-pink-dark: #bf2682;
+
+$color-red-light: #e06e72;
+$color-red-medium: #d11d32;
+$color-red-bright: #ea4c49;
+$color-red-dark: #af2745;
+
+$color-orange-medium: #f06431;
+$color-orange-dark: #c95d2d;
+
+$color-yellow-light: #ead548;
+$color-yellow-dark: #daaf2d;
+
+// -------------- Component colours --------------- //
+
+// Typography
+$color-horizontal-rule: $color-grey-paleo;
+$color-heading-default: $color-green-secondary;
+$color-heading-medium: $color-green-dark;
+$color-text-default: $color-grey-primary;
+$color-heading-extra-small: $color-black;
+$color-text-icon: $color-white;
+$color-paragraph-intro: $color-grey-primary;
+
+// Default Links
+$color-link-default: $color-blue-medium;
+$color-link-visited: $color-blue-dark;
+$color-link-focus: $color-blue-light;
+
+// Breadcrumbs
+$breadcrumbs-background-color: $color-grey-pale;
+$breadcrumbs-divider-color: $color-bluegrey-dark;
+
+$related-categories-heading: $color-black;
+
+// Navigation Links
+$color-link-nav: $color-green-quinary;
+$color-link-nav-visited: $color-green-quinary;
+
+// Article Links
+$color-related-links-background: $color-blue-pale !default;
+$color-link-external: $color-grey-light !default;
+
+$color-footer-bg: $color-grey-pale !default;
+$color-newsletter-heading: $color-green-primary;
+$color-newsletter-input-border: $color-bluegrey-medium !default;
+$color-newsletter-button-on-hover: $color-white !default;
+
+// Message Bars
+$color-opt-out-background: $color-blue-pale !default;
+$color-feedback-background: $color-blue-extra-dark !default;
+
+// Action Plans
+$color-action-item-heading: $color-white !default;
+$color-action-item-heading-bg: $color-grey-medium !default;
+$color-action-item-border: $color-bluegrey-light !default;
+$color-icon-open: $color-yellow-light !default;
+$color-article-cta: $color-blue-light !default;
+
+// Navigation
+$color-primary-nav: $color-white !default;
+$color-primary-nav-visited: $color-white !default;
+$color-primary-nav-focus: $color-transparent !default;
+
+$color-submenu-background: $color-grey-paler !default;
+$color-submenu-border: $color-green-primary !default;
+$color-submenu-list-border: $color-grey-palest !default;
+
+$color-skip-to-content: $color-grey-pale !default;
+$color-search-bar-border: $color-grey-pale;
+
+// Category Pages
+$color-category-border: $color-grey-paleo !default;
+$color-filter-border: $color-white !default;
+$color-filter-background: $color-grey-paler !default;
+
+// Homepage
+$color-home-copy: $color-green-secondary !default;
+$color-home-number: $color-grey-dark !default;
+
+$trust-banner-heading: $color-black !default;
+$trust-banner-background: $color-white !default;
+
+// Directory
+$color-directory-emphasized-bg: $color-grey-paler !default;
+
+// Contact Panels
+$contact-panels-border: $color-grey-palest !default;
+
+// Cookie Message
+$color-cookie-message-close-button: $color-white !default;
+$color-cookie-message-button-background: $color-green-secondary !default;
+
+// Link Lists - category nav
+$color-link-list-primary-border-color: $color-grey-pale !default;
+$color-link-list-background: $color-white !default;
+$color-link-to-top-background: $color-grey-pale !default;
+$color-link-list-selected-background: $color-grey-pale !default;
+$color-link-list-arrow: $color-bluegrey-dark !default;
+$color-link-list-text: $color-grey-medium-dark !default;
+
+// Contact
+$color-contact-bubble-background: $color-green-secondary;
+$color-contact-bubble-heading: $color-black;
+$color-contact-heading: $color-black;
+$color-contact-border: $color-grey-palest;
+$color-telephone-number-hover: $color-white;
+
+// Tables
+$color-table-heading: $color-grey-nine;
+$color-table-background: $color-grey-nine;
+$color-table-background-alt: $color-grey-ten;
+$color-table-border: $color-green-one;
+
+// Lists
+$color-list-bullet: $color-green-secondary;
+$color-list-yes: $color-green-secondary;
+$color-list-no: $color-red-dark;
+
+// Article Page
+$related-links-border: 1px solid $color-grey-palest !default;
+$related-links-heading: $color-black;
+
+// Feedback -advice
+$color-call-us-number: $color-green-primary;
+
+// MAS Blog
+$color-mas-blog-blue: $color-blue-cerulean !default;
+
+// Inset block
+$color-inset-block-border: $color-blue-medium;
+
+// Forms
+$input-height: $baseline-unit*5;
+$color-input-text-color: $color-black;
+$color-input-background: $color-white;
+$color-input-focus-border-color: $color-green-one;
+$color-input-disabled-background: $color-grey-concrete;
+$color-input-disabled-text-color: $color-grey-corduroy;
+
+// Global alerts
+$color-global-alert-message-bg: $color-grey-ten !default;
+$color-global-alert-default: $color-green-one !default;
+$color-global-alert-warning: $color-yellow-light !default;
+$color-global-alert-error: $color-red-medium !default;
+
+// Search
+$color-search-border: $color-grey-light !default;
+$color-search-text: $color-grey-medium-dark !default;
+$color-search-input-background: $color-off-white !default;
+$color-search-button-focus-background: $color-green-secondary !default;
+$color-search-button-focus-foreground: $color-white !default;
+$color-header-buttons: $color-green-two !default;
+
+// Panels
+$color-panel-background: $color-grey-pale;
+$color-panel-footer-background: $color-white;
+
+// Borders
+$default-border-thin: 1px solid $color-grey-paleo;
+
+// Buttons
+$button-border-radius: 4px;
+$button-border-width: 3px;
+$button-padding-vertical: 12px;
+$button-padding-horizontal: 22px;
+$button-padding-small-square: 8px;
+
+$color-button-text: $color-black;
+$color-button-text-disabled: #666969;
+
+$color-button-default: $color-grey-normal;
+$color-button-default-active: #dce0e0;
+$color-button-default-disabled: #e8ebeb;
+
+$color-button-default-border: $color-grey-seven;
+$color-button-default-border-active: #b5b7b7;
+$color-button-default-border-disabled: #cfd1d1;
+
+$color-button-primary: $color-yellow-light;
+$color-button-primary-active: #edde74;
+$color-button-primary-disabled: #f2ebb2;
+
+$color-button-primary-border: $color-yellow-dark;
+$color-button-primary-border-active: #e1c260;
+$color-button-primary-border-disabled: #eddfb2;
+
+// Callout
+$color-callout-background: $color-green-pale;
+$color-callout-instructional-background: $color-grey-pale;
+
+// -------------- OTHER --------------- //
+
+$category-inset: 36px;
+$tertiary-link-margin: 22px;
