@@ -4,6 +4,7 @@
   "authors": [
     "Justin Perry <justin.perry@moneyadviceservice.org.uk>"
   ],
+  "main": "",
   "description": "Theme layer for the Money Advice Service website. https://www.moneyadviceservice.org.uk",
   "license": "MIT",
   "homepage": "https://www.moneyadviceservice.org.uk",
