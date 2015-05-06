@@ -1,0 +1,17 @@
+{
+  "name": "mas_dough_theme",
+  "version": "0.0.0",
+  "authors": [
+    "Justin Perry <justin.perry@moneyadviceservice.org.uk>"
+  ],
+  "description": "Theme layer for the Money Advice Service website. https://www.moneyadviceservice.org.uk",
+  "license": "MIT",
+  "homepage": "https://www.moneyadviceservice.org.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
